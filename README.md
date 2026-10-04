@@ -1,3 +1,13 @@
+
+
+# Projet XYZ - Programmation Web L3 MIASHS
+
+## Utilisation de l'IA
+
+- Explications des concepts 
+- Aide au débogage
+- Aide pour faire le bouton "voir plus"
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.

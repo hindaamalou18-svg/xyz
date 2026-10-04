@@ -11,6 +11,8 @@ export const tweets: Array<Tweet>= [
         alt:  "Portrait d'Ada Lovelace",
         },  
     createdAt: "2026-09-01T11:12:00.000Z",
+    likes: 42,
+    likedByMe: false,
   },
     {
     id: "2",
@@ -18,6 +20,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "timbl",
     content: "La puissance d'un lien hypertexte tient a ce que tout doit pouvoir être relié à tout. Cela exige que toute chose puisse être publiée sur le Web.",
     createdAt: "2026-07-06T22:00:00.000Z",
+    likes: 82,
+    likedByMe: false,
   },
     {
     id: "3",
@@ -25,6 +29,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "torvalds",
     content: "Je pouvais faire mieux en deux semaines, et c'est ce que j'ai fait.",
     createdAt: "2026-07-06T12:10:00.000Z",
+    likes: 199,
+    likedByMe: true,
   },
     {
     id: "4",
@@ -32,6 +38,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "jvonneumann",
     content: "Le seul fait certain est que les difficultés proviennent d'une évolution qui, bien qu'utile et constructive, est également dangereuse.",
     createdAt: "2026-07-05T15:05:00.000Z",
+    likes: 77,
+    likedByMe: false,
   },
     {
     id: "5",
@@ -39,6 +47,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "rperlman",
     content: "L'algorithme de l'arbre couvrant etait un bricolage que je considerais comme une mauvaise idee.",
     createdAt: "2026-07-05T09:40:00.000Z",
+    likes: 10,
+    likedByMe: true,
   },
     {
     id: "6",
@@ -46,6 +56,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "dknuth",
     content: "Nous devrions oublier les petits gains d'efficacité, environ 97 % du temps : l'optimisation prematuree est la racine de tous les maux. Pourtant, nous ne devons pas laisser passer les occasions qui se présentent dans ces 3% décisifs ",
     createdAt: "2026-07-04T20:15:00.000Z",
+    likes: 100,
+    likedByMe: true,
   },
     {
     id: "7",
@@ -53,6 +65,8 @@ export const tweets: Array<Tweet>= [
     authorHandle: "bliskov",
     content: "J'ai eu l'idée de l'abstraction de données. C'était une idée merveilleuse. Elle est sortie de nulle part.",
     createdAt: "2026-09-01T11:12:00.000Z",
+    likes: 20,
+    likedByMe: true,
   },
     {
   id: "8",
@@ -64,6 +78,8 @@ export const tweets: Array<Tweet>= [
         alt:  "Portrait de Grace Hopper",
         }, 
   createdAt: "2026-06-15T10:30:00.000Z",
+  likes: 500,
+  likedByMe: true,
 },
 {
   id: "9",
@@ -71,6 +87,8 @@ export const tweets: Array<Tweet>= [
   authorHandle: "aturing",
   content: "Nous ne pouvons voir qu'une courte distance devant nous, mais nous pouvons voir qu'il y a beaucoup à faire.",
   createdAt: "2026-05-20T14:45:00.000Z",
+  likes: 73,
+  likedByMe: false,
 },
     {
   id: "10",
@@ -78,6 +96,28 @@ export const tweets: Array<Tweet>= [
   authorHandle: "dmr",
   content: "UNIX est simple, mais il faut être un génie pour comprendre sa simplicité.",
   createdAt: "2026-04-10T08:20:00.000Z",
+  likes: 999,
+  likedByMe: true,
+},
+{
+  id: "11",
+  authorName: "Margaret Hamilton",
+  authorHandle: "mhamilton",
+  content: "Je suis tout à fait d'accord avec Ada sur ce point.",
+  createdAt: "2026-09-02T10:00:00.000Z",
+  parentId: "1",
+  likes: 15,
+  likedByMe: false,
+},
+{
+  id: "12",
+  authorName: "Alan Turing",
+  authorHandle: "aturing",
+  content: "Linus a raison, c'est une belle leçon d'humilité.",
+  createdAt: "2026-07-07T08:30:00.000Z",
+  parentId: "3",
+  likes: 5,
+  likedByMe: true,
 },
     
 

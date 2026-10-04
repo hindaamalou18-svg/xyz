@@ -12,5 +12,6 @@ export type Tweet={
     content: string,
     image?: TweetImage, //"?" : optionnel
     createdAt: string
+    parentId?: string  
 
 };
